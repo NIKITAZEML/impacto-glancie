@@ -1,0 +1,4 @@
+@function size($px, $width){
+    $result: calc($px / $width) * 100vw;
+    @return $result;
+}
